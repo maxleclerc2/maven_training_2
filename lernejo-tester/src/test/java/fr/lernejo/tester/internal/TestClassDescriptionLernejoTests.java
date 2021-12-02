@@ -31,9 +31,11 @@ class TestClassDescriptionLernejoTests {
         Assertions.assertLinesMatch(expectedLines, resultLines);
     }
 
+    /*
     public static void main(String[] args) {
         TestClassDescriptionLernejoTests tests = new TestClassDescriptionLernejoTests();
 
         tests.get_methods();
     }
+    */
 }
