@@ -5,13 +5,14 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Method;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class TestClassDescriptionLernejoTests {
+    public TestClassDescriptionLernejoTests() {
+
+    }
+
     @Test
     public void get_methods() {
         Class<SomeLernejoTests> classToTest = SomeLernejoTests.class;

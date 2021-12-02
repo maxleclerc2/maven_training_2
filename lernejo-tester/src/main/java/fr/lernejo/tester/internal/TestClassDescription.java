@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class TestClassDescription {
-    private final Class<?> classToTest;
+    public final Class<?> classToTest;
 
     public TestClassDescription(Class<?> classToTest) {
         this.classToTest = classToTest;
@@ -30,5 +30,12 @@ public class TestClassDescription {
         }
 
         return returnMethods;
+    }
+
+    @Override
+    public String toString() {
+        return "TestClassDescription { " +
+            "classToTest = " + classToTest +
+            " }";
     }
 }
